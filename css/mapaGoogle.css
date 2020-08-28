@@ -1,0 +1,16 @@
+.mapa {
+    width: 100%;
+    overflow: hidden;
+}
+
+.mapa iframe {
+    width: 100%;
+    max-height: 600px;
+}
+
+@media (max-width: 800px) {
+    .mapa {
+        width: 80%;
+        margin: auto;
+    }
+}

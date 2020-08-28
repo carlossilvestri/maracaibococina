@@ -1,0 +1,82 @@
+.user-panel {
+    height: 60px;
+}
+
+.user-panel>.info {
+    position: relative;
+    left: auto;
+}
+
+.skin-blue .sidebar-menu>li.header {
+    color: white;
+}
+
+
+/* Alerta de Exito de Sweet Alert, solo la puse un poco mas grande. */
+
+.swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)>.swal2-modal {
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+
+/* Las letras de cuando algo sale mal o bien para ponerlas mas grandes. */
+
+.swal2-popup #swal2-content {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.login-page .main-footer {
+    display: none;
+}
+
+.letra-chiquita {
+    font-size: 12px;
+}
+
+.letra-mediana {
+    font-size: 13px;
+}
+
+.contenido-dia {
+    display: none;
+}
+
+.tabla-precio ul,
+ul.lista-precios {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h4.nombre_dia {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    color: #808080;
+}
+
+ul.lista-precios li .numero {
+    font-size: 30px;
+}
+
+.tabla-precio h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #808080;
+}
+
+.contenido-dia label {
+    font-weight: normal;
+}
+
+.contenido-dia time {
+    color: #808080;
+    font-weight: bold;
+}
+
+p.eventos {
+    font-weight: bold;
+}
